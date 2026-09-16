@@ -1,0 +1,20 @@
+name: README Delivery Test
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  validate-readme:
+    name: Validate generated README
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Verify README content
+        run: test -s README.md
