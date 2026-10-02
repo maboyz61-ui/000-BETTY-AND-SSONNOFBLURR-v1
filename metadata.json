@@ -1,0 +1,8 @@
+{
+  "name": "Betty and Sunnofblur",
+  "description": "Official creative audio-visual workspace, sound lab, and release hub for the Betty and Sunnofblur project.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
